@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navhero-logo img {
+  width: 236px;
+  height: 60px;
+}
+.navhero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navhero-previews {
+  display: flex;
+}
+.navhero,
+.heropage,
+.container-head,
+.newarrival-container,
+.container-head,
+.youngfav-container,
+.voucher {
+  margin: 6px 60px 6px 60px;
+}
+.previews-catalog,
+.previews-fasion,
+.previews-favourite,
+.previews-lifestyle,
+.previews-signup {
+  padding: 8px 20px 8px 20px;
+}
+
+.previews-signup {
+  border: 2px solid #e5c643;
+  border-radius: 6px;
+  background-color: black;
+  color: #e5c643;
+}
+.previews-catalog:hover,
+.previews-fasion:hover,
+.previews-favourite:hover,
+.previews-lifestyle:hover {
+  color: #e5c643;
+  background-color: black;
+  border: 2px solid #e5c643;
+  border-radius: 6px;
+  transition-duration: 0.8s;
+}
+.previews-signup:hover {
+  color: black;
+  background-color: #e5c643;
+  border: 2px solid black;
+}
+
+.heropage {
+  display: flex;
+  align-items: center;
+  background-color: rgba(210, 210, 210, 0.5);
+  padding-left: 200px;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: left;
+}
+.hero-text h1 {
+  font-size: 50px;
+}
+.start {
+  padding: 0 100px 6px 0;
+  background-color: #fff;
+}
+.end {
+  padding: 0 0 6px 40px;
+  background-color: #e5c643;
+}
+
+.heropage-image {
+  flex: 1;
+  text-align: right;
+}
+
+.heropage img {
+  width: 900px;
+  height: auto;
+}
+
+.shopnow-container {
+  margin-top: 20px;
+}
+
+.heropage-shopnow {
+  background-color: #000;
+  color: #e5c643;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid #e5c643;
+  border-radius: 6px;
+}
+.heropage-shopnow:hover {
+  color: black;
+  background-color: #e5c643;
+  border: 2px solid black;
+  transition-duration: 1s;
+}
+.brand-container {
+  background-color: rgba(210, 210, 210, 0.3);
+}
+.brand-container-in {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.brand-container-logos img {
+  height: 100px;
+  width: auto;
+  display: block;
+}
+.container-head {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.newarrival-container {
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  width: 400px;
+  height: 350px;
+}
+.gridcontent-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gridhead {
+  font-size: 20px;
+  font-weight: 600;
+}
+.gridcontent {
+  font-size: 14px;
+  color: #858585;
+}
+.gridcontent-box:hover {
+  background-color: #e5c643;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding-left: 40px;
+  padding-right: 6px;
+  transition-duration: 1s;
+}
+
+.arrow:hover {
+  background-color: rgba(196, 171, 58, 0.8);
+  border-radius: 12px;
+  transition-duration: 1s;
+}
+.voucher-ways img {
+  height: 70px;
+  width: 200px;
+}
+.main-banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(255, 224, 87);
+  padding: 60px;
+  color: black;
+  position: relative;
+  background-image: radial-gradient(rgb(255, 208, 0), rgb(179, 152, 32));
+}
+
+.banner-textbox {
+  max-width: 500px;
+}
+
+.textbox-head {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.textbox-content {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.thead {
+  background-color: white;
+  padding: 4px 30px 4px 30px;
+}
+.textbox-valid {
+  font-size: 16px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+}
+
+.heropage-shopnow {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.banner-background img {
+  max-width: 450px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.shopnow-container {
+  display: flex;
+}
+.youngfav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.fav {
+  height: 500px;
+  width: 600px;
+  border-radius: 6px;
+}
+.voucher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.voucher-textarea {
+  flex: 1;
+}
+
+.voucher-head {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.voucher-content {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.voucher-ways {
+  display: flex;
+  gap: 20px;
+}
+
+.voucher-image img {
+  border-radius: 20px;
+}
+
+.community {
+  background-color: #f0c235; /* Adjusted yellow shade */
+  padding: 50px 30px;
+  border-radius: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  text-align: center;
+  width: 100%; /* Full width */
+}
+
+.community-head {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.community-content {
+  margin: 10px 0 20px;
+  font-size: 16px;
+  color: #fdfdfd;
+}
+
+.community-messagebox {
+  display: inline-block;
+}
+
+#message-box {
+  padding: 15px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+input[type="text"]::placeholder {
+  color: #bbb;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #333;
+}
+
+label input {
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.send {
+  padding: 6px;
+  background-color: #000;
+  color: white;
+  border-radius: 6px;
+}
+.helpsprovided {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.fashion-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.fashion-flexhead {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.flex-content {
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+.fashion-socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.flex-socials img {
+  width: 35px;
+  height: 35px;
+  background-color: white; /* Adds a yellow background to match the design */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fashion-company,
+.fashion-quicklink,
+.fashion-legals {
+  flex: 1;
+  margin-left: 40px;
+}
+
+.company-head,
+.quicklink-head,
+.legal-heads {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.company-content,
+.quicklink-content,
+.legal-content {
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.company-content:hover,
+.quicklink-content:hover,
+.legal-content:hover {
+  color: #f0c235; /* Highlight on hover */
+  cursor: pointer;
+}
