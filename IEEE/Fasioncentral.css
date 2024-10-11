@@ -277,7 +277,7 @@ body {
 }
 
 .community {
-  background-color: #f0c235; /* Adjusted yellow shade */
+  background-color: #f0c235; 
   padding: 50px 30px;
   border-radius: 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -384,7 +384,7 @@ label input {
 .flex-socials img {
   width: 35px;
   height: 35px;
-  background-color: white; /* Adds a yellow background to match the design */
+  background-color: white;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -416,10 +416,10 @@ label input {
 .company-content:hover,
 .quicklink-content:hover,
 .legal-content:hover {
-  color: #f0c235; /* Highlight on hover */
+  color: #f0c235; 
   cursor: pointer;
 }
-/* Responsive Styles */
+
 @media (max-width: 1200px) {
   .navhero,
   .heropage,
