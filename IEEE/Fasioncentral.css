@@ -419,3 +419,127 @@ label input {
   color: #f0c235; /* Highlight on hover */
   cursor: pointer;
 }
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .navhero,
+  .heropage,
+  .container-head,
+  .newarrival-container,
+  .youngfav-container,
+  .voucher {
+    margin: 6px 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 40px;
+  }
+
+  .heropage-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .brand-container-logos img {
+    height: 80px;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
+
+  .fav {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .navhero-logo img {
+    width: 180px;
+    height: 50px;
+  }
+
+  .navhero {
+    flex-direction: column;
+  }
+
+  .navhero-previews {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .heropage {
+    flex-direction: column;
+    padding-left: 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .heropage-image img {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .brand-container-in {
+    flex-wrap: wrap;
+  }
+
+  .brand-container-logos img {
+    height: 60px;
+  }
+
+  .newarrival-container,
+  .youngfav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .voucher {
+    flex-direction: column;
+  }
+
+  .voucher-image img {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navhero-logo img {
+    width: 150px;
+    height: 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .shopnow-container .heropage-shopnow {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .voucher-head {
+    font-size: 28px;
+  }
+
+  .voucher-content {
+    font-size: 14px;
+  }
+
+  .community-head {
+    font-size: 24px;
+  }
+
+  .community-content {
+    font-size: 14px;
+  }
+
+  .brand-container-logos img {
+    height: 50px;
+  }
+}
